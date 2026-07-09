@@ -15,6 +15,16 @@
   <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </p>
 
+<p align="center">
+  <a href="https://your-username.github.io/ml-showcase/">
+    <img src="https://img.shields.io/badge/🚀%20View%20Live%20Interactive%203D%20Demo-FFB000?style=for-the-badge&logoColor=black&labelColor=14110F" />
+  </a>
+</p>
+
+<p align="center">
+  <i>Live, draggable 3D scenes — a firing neural network, live transformer self-attention, and real gradient descent on a loss surface. Not a GIF, an actual WebGL app hosted on GitHub Pages.</i>
+</p>
+
 ---
 
 ## 🧠 About Me
