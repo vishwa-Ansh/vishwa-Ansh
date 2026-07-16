@@ -1,4 +1,5 @@
 name: 3D Profile Contribution
+
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -10,12 +11,15 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: vishwa-Ansh      # <-- apna GitHub username
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update 3D contribution graph"
-          
