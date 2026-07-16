@@ -1,129 +1,195 @@
-<h1 align="center">Hi 👋, I'm Night Vanta</h1>
-
-<h3 align="center">
-Machine Learning • AI • Python • Full Stack Developer
-</h3>
+<h1 align="center">Hi 👋, I'm <span style="color:#00d9ff">Your Name</span></h1>
+<h3 align="center">Machine Learning Engineer | Data Scientist | Deep Learning Enthusiast</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Machine+Learning+Engineer;Deep+Learning+Enthusiast;Python+Developer;React+Native+Developer;Always+Learning+New+Things" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Building+Intelligent+Systems;Math+%2B+Code+%3D+Machine+Learning;Optimizing+Loss+Functions+Since+Day+1" alt="Typing SVG" />
 </p>
-
----
-
-## 🚀 About Me
-
-- 🎓 B.Tech Student
-- 🤖 Learning Machine Learning from Scratch
-- 🧠 Interested in AI & Deep Learning
-- 📱 React Native Developer
-- 💻 Python | JavaScript | Node.js
-- 🌱 Currently Learning
-  - Logistic Regression
-  - Deep Learning
-  - Computer Vision
-
----
-
-## 🌐 Connect With Me
-
-<p align="left">
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=github" />
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINK">
-<img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-
-<a href="https://instagram.com/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=instagram" />
-</a>
-</p>
-
----
-
-## 💻 Tech Stack
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,nodejs,react,express,mongodb,mysql,git,github,vscode,linux,html,css,tailwind" />
-
+  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/yourusername?label=Follow&style=social" />
 </p>
+
+---
+
+### 🚀 About Me
+
+- 🔭 Currently working on **AI/ML powered products**
+- 🌱 Exploring **Deep Learning, Optimization Theory, and Statistical Modeling**
+- 💬 Ask me about **Machine Learning, Neural Networks, Calculus, Linear Algebra**
+- 📫 Reach me: **your.email@example.com**
+- ⚡ Fun fact: **Gradient descent never sleeps**
+
+---
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+## 🧠 Core Algorithms & Mathematical Foundations
+
+Yeh section mere favourite ML/Math algorithms aur unke formulas dikhata hai.
+
+### 1️⃣ Elastic Net Regression
+
+Elastic Net Lasso (L1) aur Ridge (L2) regularization ka combination hai:
+
+$$
+\hat{\beta} = \arg\min_{\beta} \left\{ \frac{1}{2n} \sum_{i=1}^{n} (y_i - x_i^T \beta)^2 + \lambda \left[ \alpha \|\beta\|_1 + \frac{(1-\alpha)}{2} \|\beta\|_2^2 \right] \right\}
+$$
+
+- `λ` → regularization strength
+- `α` → L1/L2 mixing ratio (0 = Ridge, 1 = Lasso)
+
+---
+
+### 2️⃣ Taylor Series Expansion
+
+Kisi bhi smooth function `f(x)` ko ek point `a` ke around approximate karne ka formula:
+
+$$
+f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots
+$$
+
+Compact form:
+
+$$
+f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n
+$$
+
+---
+
+### 3️⃣ Newton's Method (Root Finding / Optimization)
+
+Root find karne ke liye iterative formula:
+
+$$
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+$$
+
+Optimization (Newton-Raphson) ke liye, gradient descent se fast convergence:
+
+$$
+\theta_{n+1} = \theta_n - H^{-1}(\theta_n) \nabla f(\theta_n)
+$$
+
+- `H` → Hessian matrix
+- `∇f` → Gradient vector
+
+---
+
+### 4️⃣ Gradient Descent
+
+$$
+\theta_{t+1} = \theta_t - \eta \nabla_\theta J(\theta)
+$$
+
+Stochastic version (mini-batch):
+
+$$
+\theta_{t+1} = \theta_t - \eta \nabla_\theta J(\theta; x^{(i)}, y^{(i)})
+$$
+
+---
+
+### 5️⃣ Deep Learning — Forward & Backward Propagation
+
+**Forward pass** (single layer):
+
+$$
+z^{[l]} = W^{[l]} a^{[l-1]} + b^{[l]}, \qquad a^{[l]} = g(z^{[l]})
+$$
+
+**Loss (Binary Cross-Entropy):**
+
+$$
+\mathcal{L} = -\frac{1}{m}\sum_{i=1}^{m} \left[ y_i \log(\hat{y}_i) + (1-y_i)\log(1-\hat{y}_i) \right]
+$$
+
+**Backpropagation (chain rule):**
+
+$$
+\frac{\partial \mathcal{L}}{\partial W^{[l]}} = \frac{\partial \mathcal{L}}{\partial a^{[l]}} \cdot \frac{\partial a^{[l]}}{\partial z^{[l]}} \cdot \frac{\partial z^{[l]}}{\partial W^{[l]}}
+$$
+
+---
+
+### 6️⃣ Sigmoid & Softmax Activation
+
+$$
+\sigma(x) = \frac{1}{1+e^{-x}}
+$$
+
+$$
+\text{softmax}(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}
+$$
+
+---
+
+### 7️⃣ Bayes' Theorem
+
+$$
+P(A|B) = \frac{P(B|A) \, P(A)}{P(B)}
+$$
+
+---
+
+### 8️⃣ Principal Component Analysis (Eigen Decomposition)
+
+$$
+\Sigma v = \lambda v
+$$
+
+Jaha `Σ` covariance matrix, `v` eigenvector, aur `λ` eigenvalue hai.
+
+---
+
+### 9️⃣ Support Vector Machine (Optimization Objective)
+
+$$
+\min_{w,b} \frac{1}{2}\|w\|^2 + C\sum_{i=1}^n \xi_i \quad \text{s.t. } y_i(w^Tx_i+b) \ge 1-\xi_i
+$$
+
+---
+
+### 🔟 K-Means Clustering Objective
+
+$$
+J = \sum_{k=1}^{K}\sum_{x_i \in C_k} \|x_i - \mu_k\|^2
+$$
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true" width="35%"/>
 </p>
-
----
-
-## 🔥 GitHub Streak
 
 <p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=tokyonight&hide_border=true" width="60%"/>
 </p>
 
 ---
 
-## 🏆 GitHub Trophy
+## 🤝 Connect With Me
 
 <p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&margin-w=10&margin-h=10"/>
-
+  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
----
-
-## 📈 Contribution Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg"/>
-
-</p>
-
----
-
-## ✍ Random Dev Quote
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
----
-
-## 😂 Random Joke
-
-![Jokes Card](https://readme-jokes.vercel.app/api?theme=tokyonight)
-
----
-
-## 👀 Visitor Count
-
-<p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile+Views&color=0e75b6&style=flat"/>
-
-</p>
-
----
-
-<p align="center">
-
-⭐ Thanks for visiting my profile ⭐
-
-</p>
+<p align="center"><i>"Data is the new oil, but Mathematics is the engine." 🚗💨</i></p>
